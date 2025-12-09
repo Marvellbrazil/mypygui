@@ -1,11 +1,10 @@
 # mypygui
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MariaDB-Database-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/Marvellbrazil/mypygui?style=for-the-badge" />
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge"/></a>
+  <a href="https://docs.python.org/3/library/tkinter.html"><img src="https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge"/></a>
+  <a href="https://mariadb.org/"><img src="https://img.shields.io/badge/MariaDB-Database-orange?style=for-the-badge"/></a>
+  <a href="https://github.com/Marvellbrazil/mypygui/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Marvellbrazil/mypygui?style=for-the-badge"/></a>
 </p>
 
 A simple Python GUI application using Tkinter connected to MariaDB — built as a learning project to demonstrate GUI forms, data input, and basic CRUD operations.
