@@ -56,6 +56,7 @@ Make sure you have:
 - Database created (e.g. `db_mypygui`)
 - Required Python package:
 
+<code>Bash</code>
 ```bash
     git clone https://github.com/Marvellbrazil/mypygui.git
     cd mypygui
@@ -70,10 +71,12 @@ Make sure you have:
 
 Make sure you setup your database connection in <code>connection.py</code> before running the program :
 
+<code>SQL</code>
 ```sql
 CREATE DATABASE db_mypygui;
 ```
 
+<code>Python</code>
 ```python
 __DB_HOST__ = "localhost"
 __DB_USN__ = "<your_username>"
@@ -86,6 +89,7 @@ __DB_NAME__ = "db_mypygui"
 
 To run type this in the terminal :
 
+<code>Bash</code>
 ```bash
 python main.py
 ```
