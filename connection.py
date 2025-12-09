@@ -1,12 +1,16 @@
 import mariadb as db
 
-__DB_NAME__ = "mypygui"  # The name of the database
+__DB_HOST__ = "localhost"
+__DB_USN__ = "root"
+__DB_PASS__ = ""
+__DB_PORT__ = 3306
+__DB_NAME__ = "db_mypygui"  # The name of the database
 
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "",
-    "port": 3306,
+    "host": __DB_HOST__,
+    "user": __DB_USN__,
+    "password": __DB_PASS__,
+    "port": __DB_PORT__,
     "database": __DB_NAME__,
 }
 
