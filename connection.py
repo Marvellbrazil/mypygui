@@ -16,7 +16,7 @@ DB_CONFIG = {
 
 
 # Function to get connection from the database
-def get_conn():
+def get_connection():
     try:
         conn = db.connect(**DB_CONFIG)
         return conn
@@ -27,7 +27,7 @@ def get_conn():
 
 # INIT the database
 def init_db():
-    conn = get_conn()
+    conn = get_connection()
     if conn is None:
         return
 

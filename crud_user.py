@@ -1,7 +1,7 @@
 import connection as conpy
 
 def create(name, age, email):
-    conn = conpy.get_conn()
+    conn = conpy.get_connection()
     if conn is None:
         return
     
@@ -16,7 +16,7 @@ def create(name, age, email):
     conn.close()
 
 def read():
-    conn = conpy.get_conn()
+    conn = conpy.get_connection()
     if conn is None:
         return []
     
@@ -33,7 +33,7 @@ def read():
     return rows
 
 def update(id, name, age, email):
-    conn = conpy.get_conn()
+    conn = conpy.get_connection()
     
     if conn is None:
         return
@@ -53,7 +53,7 @@ def update(id, name, age, email):
     conn.close()
 
 def delete(id):
-    conn = conpy.get_conn()
+    conn = conpy.get_connection()
     if conn is None:
         return
     
@@ -68,7 +68,7 @@ def delete(id):
     conn.close()
 
 def get(id):
-    conn = conpy.get_conn()
+    conn = conpy.get_connection()
     if conn is None:
         return []
     
