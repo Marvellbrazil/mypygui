@@ -1,6 +1,5 @@
-# mypygui
-
 <p align="center">
+  <h1 align="center">mypygui</h1>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge"/></a>
   <a href="https://docs.python.org/3/library/tkinter.html"><img src="https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge"/></a>
   <a href="https://mariadb.org/"><img src="https://img.shields.io/badge/MariaDB-Database-orange?style=for-the-badge"/></a>
